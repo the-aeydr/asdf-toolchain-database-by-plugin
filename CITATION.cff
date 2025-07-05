@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you refer to this article, please cite it as below."
+
+version: 1.0.0
+date-released: 2023-08-18
+title: "ASDF, Toolchains and a Single Plugin as Package Database"
+url: "https://writing.aeydr.dev/notes/asdf-toolchain-database-by-plugin"
+authors:
+- given-names: "aeydr"
+
+preferred-citation:
+  type: article
+  journal: "The Architectural Decision Record"
+  authors:
+  - given-names: "aeydr"
+
+  title: "ASDF, Toolchains and a Single Plugin as Package Database"
+  month: 08
+  year: 2023
