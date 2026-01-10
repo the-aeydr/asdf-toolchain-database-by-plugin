@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: asdf-toolchain-database-by-plugin
+  description: Creating a distributed tool database using ASDF plugins
+  tags:
+    - asdf
+    - asdf
+  annotations:
+    displayName: ASDF, Toolchains and a Single Plugin as Package Database
+    github.com/project-slug: the-aeydr/asdf-toolchain-database-by-plugin
+spec:
+  type: documentation
+  lifecycle: experimental

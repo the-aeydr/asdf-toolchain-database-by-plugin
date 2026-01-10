@@ -1,0 +1,29 @@
+{
+	"name": "Workspace",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"features": {
+		"ghcr.io/devcontainers/features/docker-in-docker:2": {
+			"version": "latest",
+			"enableNonRootDocker": "true",
+			"moby": "true"
+		},
+		"ghcr.io/devcontainers/features/aws-cli:1": {
+			"version": "latest"
+		},
+		"ghcr.io/devcontainers/features/terraform:1": {
+			"version": "latest"
+		}
+	},
+	"customizations": {
+		"codespaces": {
+			"extensions": [
+				"ms-azuretools.vscode-docker",
+				"ms-vscode.makefile-tools",
+				"hashicorp.terraform",
+				"pkief.material-icon-theme"
+			]
+		}
+	}
+}

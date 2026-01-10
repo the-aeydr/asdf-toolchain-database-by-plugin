@@ -1,0 +1,1 @@
+--strip-components=1

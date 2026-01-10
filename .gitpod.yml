@@ -1,0 +1,14 @@
+image:
+  file: .gitpod/Dockerfile
+
+tasks:
+  - name: Setup
+    init: make init
+
+vscode:
+  extensions:
+    - ms-vscode.makefile-tools
+    - ms-azuretools.vscode-docker
+    - ms-azuretools.vscode-containers
+    - hashicorp.terraform
+    - pkief.material-icon-theme

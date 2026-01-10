@@ -1,0 +1,8 @@
+SPDXVersion: SPDX-2.0
+SPDX-License-Identifier: LicenseRef-LICENSE.md
+Creator: aeydr
+PackageOriginator: aeydr
+PackageLicenseDeclared: LicenseRef-LICENSE.md
+
+PackageName: asdf-toolchain-database-by-plugin
+PackageHomePage: https://github.com/theaeydr/asdf-toolchain-database-by-plugin/
